@@ -119,7 +119,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body {
-				padding: 6em 3.5em 3.5em 3.5em;
+				padding: 3em 35em 3em 30em;
 			}
 
 		}
@@ -581,6 +581,31 @@
 				ul.icons li a {
 					color: #000;
 				}
+
+/* Cursor from typed */
+
+.typed-cursor {
+	color: #f24c7c;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
 /* Form */
 
