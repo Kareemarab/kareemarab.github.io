@@ -40,6 +40,11 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+
+        height: 100%;
+       
+        position: absolute;
+
 	}
 
 /* Box Model */
@@ -95,7 +100,7 @@
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
+
 		background-color: #fff;
 		padding: 6em 4em 4em 4em;
 	}
@@ -119,7 +124,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body {
-				padding: 3em 30em 3em 30em;
+				padding: 3em 20em 0em 20em;
 			}
 
 		}
@@ -496,6 +501,7 @@
 
 		header br {
 			display: none;
+
 		}
 
 	}
@@ -1029,7 +1035,18 @@
 
 		}
 
+/* Main Body */
+
+	#main_body {
+		position: static;
+	}
+
+
 /* Header */
+
+	#header {
+		position: sticky;
+	}
 
 	#header h1 {
 		font-size: 5em;
@@ -1055,6 +1072,7 @@
 
 		#header p {
 			font-size: 1em;
+
 		}
 
 	}
