@@ -40,10 +40,11 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+		overflow: auto;
 
         height: 100%;
        
-        position: absolute;
+        position: relative;
 
 	}
 
@@ -1045,7 +1046,9 @@
 /* Header */
 
 	#header {
-		position: sticky;
+		position: relative;
+		overflow: auto;
+
 	}
 
 	#header h1 {
