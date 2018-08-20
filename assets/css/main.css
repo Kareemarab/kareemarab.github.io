@@ -1096,7 +1096,7 @@
 			padding-right: 5%;
 		}
 		#header h1 {
-			font-size: 4em;
+			font-size: 5em;
 		}
 
 	}
@@ -1106,6 +1106,9 @@
 		#header {
 			padding-left: 5%;
 			padding-right: 5%;
+		}
+		#header h1 {
+			font-size: 5em;
 		}
 
 	}
