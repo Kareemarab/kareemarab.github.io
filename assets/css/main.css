@@ -1188,10 +1188,12 @@
 		left: 4em;
 		opacity: 0.5;
 		position: absolute;
+		text-align: center;
 	}
 
 		#footer .icons {
 			margin: 0 0 0.5em 0;
+			text-align: center;
 		}
 
 		#footer .copyright {
