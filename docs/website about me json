@@ -1,0 +1,24 @@
+let aboutMe: JSON = [
+    "name": "Kareem Arab",
+    "skills": ["Swift", "Python", "C", "C++"],
+    "education": [
+        "current": "Carleton University, CS",
+        "previous": "American School of Kuwait",
+    ],
+    "experience": [
+        "current": [
+            "0": "Research Assistant @ Sensor Systems & IoT Lab",
+            "1": "Web Developer @ CU Post-Doctoral Union",
+        ]
+        "previous": "Office Adminstrator Intern @ Vigor Enterprise",
+    ]
+    "about": ["Currently pursuing a Computer Science Degree at Carleton University. I spend most of my time writing music, iOS apps and studying/developing AI models for engineering-ish applications."]
+]
+
+var name = "Kareem Arab"
+var skills = ["Swift", "Python", "C", "C++"]
+var education = ["current": "Carleton University, CS",
+                 "previous": "American School of Kuwait"]
+var education = ["current": ["Research Assistant @ Sensor Systems & IoT Lab", "Web Developer @ CU Post-Doctoral Union"],
+                 "previous": "Office Adminstrator Intern @ Vigor Enterprise"]
+var about = "Currently pursuing a Computer Science Degree at Carleton University. I spend most of my time writing music, iOS apps and studying/developing AI models for engineering-ish applications."
