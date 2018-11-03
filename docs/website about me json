@@ -22,3 +22,5 @@ var education = ["current": "Carleton University, CS",
 var education = ["current": ["Research Assistant @ Sensor Systems & IoT Lab", "Web Developer @ CU Post-Doctoral Union"],
                  "previous": "Office Adminstrator Intern @ Vigor Enterprise"]
 var about = "Currently pursuing a Computer Science Degree at Carleton University. I spend most of my time writing music, iOS apps and studying/developing AI models for engineering-ish applications."
+
+let kareem = Kareem(name, skills, education, experience, about)
